@@ -1,7 +1,7 @@
 const express = require('express');
 const redis = require('redis');
 
-# For debugging unescape, this will crash the app if someone accesses the root route
+// For debugging unescape, this will crash the app if someone accesses the root route
 const process = require('process');
 
 const app = express();
